@@ -7,7 +7,7 @@ about:
   latestVersion: "v1.2.2"
   latestRelease: "v1.2.2"
   latestPrerelease: ""
-  collectedAt: 2026-09-09T05:26:56Z
+  collectedAt: 2026-09-09T19:47:30Z
 timeline:
   created: 2018-01-19
   lastCommit: 2025-01-10
@@ -86,7 +86,7 @@ total:
   commit: 650
 ---
 path: /home/runner/.x-repo/github.com/iptraf-ng/iptraf-ng
-collectedAt: 2026-09-09T05:26:57Z
+collectedAt: 2026-09-09T19:47:31Z
 loc:
   C:
     code: 11382
