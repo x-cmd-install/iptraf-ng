@@ -4,13 +4,25 @@
 
 IPTraf-ng is a console-based network monitoring program for Linux that displays information about IP traffic.
 
-![iptraf-ng](https://repo.x-cmd.io/iptraf-ng.svg)
+![iptraf-ng](https://repo.x-cmd.io/iptraf-ng.svg?lang=zh)
 
 ## 安装
 
 ```sh
 x install iptraf-ng
 ```
+
+## 代码规模
+
+合计: **17,103** 行代码（覆盖前 5 种语言、共 **102** 个文件）。
+
+| 语言 | 代码 | 注释 | 空行 | 文件数 |
+|------|-----:|-----:|-----:|------:|
+| C | 11,382 | 1,135 | 2,529 | 47 |
+| Autoconf | 4,183 | 0 | 317 | 1 |
+| CHeader | 1,160 | 189 | 323 | 52 |
+| Makefile | 342 | 40 | 65 | 1 |
+| Bash | 28 | 2 | 4 | 1 |
 
 ## 源代码
 
@@ -21,7 +33,6 @@ x install iptraf-ng
 
 - **最新版本**: `v1.2.2` (2024-11-21)
 - **最近提交**: 2025-01-10
-- **发布时间**: 2024-11-21T08:18:18Z
 
 ## 流行度
 
@@ -36,20 +47,29 @@ x install iptraf-ng
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
 | 30d | 2026-08-11 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-12 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 90d | 2026-06-12 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-03-14 | 0 | 0 | 1 | 0 | 0 | 0 |
 | 360d | 2025-09-15 | 0 | 0 | 1 | 0 | 0 | 0 |
+| last720d | 2024-09-20 | 1 | 0 | 2 | 0 | 1 | 6 |
 
-## 代码规模
+## 发行版状态
 
-合计: **17,103** 行代码（覆盖前 5 种语言、共 **102** 个文件）。
+在 [repology.org](https://repology.org/project/iptraf-ng) 上共有 **141** 个发行版报告此项目。**54** 个 ✅ 已是最新上游版本，**77** 个 ⚠️ 使用旧版本。
 
-| 语言 | 代码 | 注释 | 空行 | 文件数 |
-|------|-----:|-----:|-----:|------:|
-| C | 11,382 | 1,135 | 2,529 | 47 |
-| Autoconf | 4,183 | 0 | 317 | 1 |
-| CHeader | 1,160 | 189 | 323 | 52 |
-| Makefile | 342 | 40 | 65 | 1 |
-| Bash | 28 | 2 | 4 | 1 |
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `1.2.2` | ✅ latest |
+| Debian 14 | `1.2.2` | ✅ latest |
+| Debian 13 | `1.2.1` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `1.2.2` | ✅ latest |
+| Ubuntu 24.04 LTS | `1.2.1` | ⚠️ outdated |
+| Arch | `1.2.2` | ✅ latest |
+| Fedora rawhide | `1.2.2` | ✅ latest |
+| Nix unstable | `1.2.2` | ✅ latest |
+| Void | `1.2.1` | ⚠️ outdated |
+| Alpine edge | `1.2.2` | ✅ latest |
+| openSUSE Tumbleweed | `1.2.2` | ✅ latest |
 
 ## 改进这些数据
 
@@ -60,4 +80,4 @@ iptraf-ng 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T05:25:01Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T20:41:42Z._
