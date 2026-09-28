@@ -126,4 +126,3 @@ total:
 ---
 
 ---
-{"id":186576718,"author":{"login":"vsamel","id":397307,"node_id":"MDQ6VXNlcjM5NzMwNw==","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"node_id":"RE_kwDOBwrZE84LHu9O","tag_name":"v1.2.2","target_commitish":"master","name":"version 1.2.2","draft":false,"immutable":false,"prerelease":false,"created_at":"2024-11-21T08:06:08Z","updated_at":"2024-11-21T08:18:18Z","published_at":"2024-11-21T08:18:18Z","assets":[],"body":"- small cleanups: remove unused code/variable, correct format specifiers\r\n- serv.c: fix and validate port/ranges entering/loading/saving\r\n- SECURITY FIX: CVE-2024-52949: interface names: limit length to IFNAMSIZ\r\n"}
