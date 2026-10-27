@@ -1,3 +1,51 @@
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: iptraf-ng
+  binname: iptraf-ng
+  visiblename: iptraf-ng
+  version: 1.2.2
+  origversion: 1.2.2-1
+  status: newest
+  summary: Console-based network monitoring utility
+  licenses:
+    - GPL2
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: iptraf-ng
+  binname: iptraf-ng
+  visiblename: iptraf-ng
+  version: 1.2.2
+  origversion: 1.2.2-1
+  status: newest
+  summary: Console-based network monitoring utility
+  licenses:
+    - GPL2
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: iptraf-ng
+  binname: iptraf-ng
+  visiblename: iptraf-ng
+  version: 1.2.2
+  origversion: 1.2.2-1
+  status: newest
+  summary: Console-based network monitoring utility
+  licenses:
+    - GPL2
+- repo: pureos_amber
+  subrepo: amber/main
+  srcname: iptraf-ng
+  binnames:
+    - iptraf
+    - iptraf-ng
+  visiblename: iptraf-ng
+  version: 1.1.4
+  origversion: 1:1.1.4-6
+  status: outdated
+  maintainers:
+    - aron@debian.org
+    - fpeters@debian.org
+  categories:
+    - oldlibs
 - repo: almalinux_8
   subrepo: BaseOS
   srcname: iptraf-ng
@@ -475,6 +523,19 @@
     - GPL-2.0-or-later
   categories:
     - Unspecified
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: iptraf-ng
+  binnames:
+    - iptraf-ng
+  visiblename: iptraf-ng
+  version: 1.2.1
+  origversion: 1:1.2.1-1
+  status: outdated
+  maintainers:
+    - aron@debian.org
+  categories:
+    - net
 - repo: centos_stream_10
   subrepo: BaseOS
   srcname: iptraf-ng
@@ -684,6 +745,19 @@
     - fallback-mnt-exherbo@repology
   categories:
     - net-analyzer
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: iptraf-ng
+  binnames:
+    - iptraf-ng
+  visiblename: iptraf-ng
+  version: 1.2.1
+  origversion: 1:1.2.1-2
+  status: outdated
+  maintainers:
+    - aron@debian.org
+  categories:
+    - net
 - repo: fedora_39
   subrepo: release
   srcname: iptraf-ng
@@ -951,39 +1025,6 @@
     - GPLv2
   categories:
     - System/Networking
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: iptraf-ng
-  binname: iptraf-ng
-  visiblename: iptraf-ng
-  version: 1.2.2
-  origversion: 1.2.2-1
-  status: newest
-  summary: Console-based network monitoring utility
-  licenses:
-    - GPL2
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: iptraf-ng
-  binname: iptraf-ng
-  visiblename: iptraf-ng
-  version: 1.2.2
-  origversion: 1.2.2-1
-  status: newest
-  summary: Console-based network monitoring utility
-  licenses:
-    - GPL2
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: iptraf-ng
-  binname: iptraf-ng
-  visiblename: iptraf-ng
-  version: 1.2.2
-  origversion: 1.2.2-1
-  status: newest
-  summary: Console-based network monitoring utility
-  licenses:
-    - GPL2
 - repo: nix_stable_24_05
   srcname: iptraf-ng
   visiblename: iptraf-ng
@@ -1028,6 +1069,32 @@
     - '"^"@regexmail.net'
   licenses:
     - GPL-2.0-only
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: iptraf-ng
+  binnames:
+    - iptraf-ng
+  visiblename: iptraf-ng
+  version: 1.2.1
+  origversion: 1:1.2.1-1
+  status: outdated
+  maintainers:
+    - aron@debian.org
+  categories:
+    - net
+- repo: raspbian_stable
+  subrepo: main
+  srcname: iptraf-ng
+  binnames:
+    - iptraf-ng
+  visiblename: iptraf-ng
+  version: 1.2.1
+  origversion: 1:1.2.1-2
+  status: outdated
+  maintainers:
+    - aron@debian.org
+  categories:
+    - net
 - repo: nix_stable_26_05
   srcname: iptraf-ng
   visiblename: iptraf-ng
@@ -1189,18 +1256,30 @@
   srcname: iptraf-ng
   binnames:
     - iptraf-ng
-    - iptraf-ng-debug
   visiblename: iptraf-ng
   version: 1.2.2
-  origversion: 1.2.2-1mamba
+  origversion: 1.2.2-2mamba
   status: newest
   summary: A console-based network monitoring program for Linux that displays information about IP traffic
   maintainers:
-    - silvan.calarco@mambasoft.it
+    - silvan@openmamba.org
   licenses:
     - GPL
   categories:
     - Network/Monitoring
+- repo: raspbian_testing
+  subrepo: main
+  srcname: iptraf-ng
+  binnames:
+    - iptraf-ng
+  visiblename: iptraf-ng
+  version: 1.2.2
+  origversion: 1:1.2.2-1
+  status: newest
+  maintainers:
+    - aron@debian.org
+  categories:
+    - net
 - repo: openmandriva_6_0
   subrepo: main/release
   srcname: iptraf-ng
@@ -1368,7 +1447,7 @@
   categories:
     - net
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: iptraf-ng
   binnames:
     - iptraf-ng
@@ -1381,7 +1460,7 @@
   categories:
     - net
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: iptraf-ng
   binnames:
     - iptraf-ng
@@ -1408,86 +1487,6 @@
   version: 1.2.2
   origversion: 1.2.2-1
   status: newest
-- repo: pureos_amber
-  subrepo: amber/main
-  srcname: iptraf-ng
-  binnames:
-    - iptraf
-    - iptraf-ng
-  visiblename: iptraf-ng
-  version: 1.1.4
-  origversion: 1:1.1.4-6
-  status: outdated
-  maintainers:
-    - aron@debian.org
-    - fpeters@debian.org
-  categories:
-    - oldlibs
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: iptraf-ng
-  binnames:
-    - iptraf-ng
-  visiblename: iptraf-ng
-  version: 1.2.1
-  origversion: 1:1.2.1-1
-  status: outdated
-  maintainers:
-    - aron@debian.org
-  categories:
-    - net
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: iptraf-ng
-  binnames:
-    - iptraf-ng
-  visiblename: iptraf-ng
-  version: 1.2.1
-  origversion: 1:1.2.1-2
-  status: outdated
-  maintainers:
-    - aron@debian.org
-  categories:
-    - net
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: iptraf-ng
-  binnames:
-    - iptraf-ng
-  visiblename: iptraf-ng
-  version: 1.2.1
-  origversion: 1:1.2.1-1
-  status: outdated
-  maintainers:
-    - aron@debian.org
-  categories:
-    - net
-- repo: raspbian_stable
-  subrepo: main
-  srcname: iptraf-ng
-  binnames:
-    - iptraf-ng
-  visiblename: iptraf-ng
-  version: 1.2.1
-  origversion: 1:1.2.1-2
-  status: outdated
-  maintainers:
-    - aron@debian.org
-  categories:
-    - net
-- repo: raspbian_testing
-  subrepo: main
-  srcname: iptraf-ng
-  binnames:
-    - iptraf-ng
-  visiblename: iptraf-ng
-  version: 1.2.2
-  origversion: 1:1.2.2-1
-  status: newest
-  maintainers:
-    - aron@debian.org
-  categories:
-    - net
 - repo: rocky_8
   subrepo: BaseOS
   srcname: iptraf-ng
