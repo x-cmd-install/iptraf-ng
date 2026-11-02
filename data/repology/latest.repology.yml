@@ -956,9 +956,9 @@
   srcname: iptraf-ng
   binname: iptraf-ng
   visiblename: iptraf-ng
-  version: 1.2.2
-  origversion: 1.2.2-1
-  status: newest
+  version: 1.2.1
+  origversion: 1.2.1-1
+  status: outdated
   summary: Console-based network monitoring utility
   licenses:
     - GPL2
@@ -967,9 +967,9 @@
   srcname: iptraf-ng
   binname: iptraf-ng
   visiblename: iptraf-ng
-  version: 1.2.2
-  origversion: 1.2.2-1
-  status: newest
+  version: 1.2.1
+  origversion: 1.2.1-1
+  status: outdated
   summary: Console-based network monitoring utility
   licenses:
     - GPL2
@@ -1267,18 +1267,6 @@
   categories:
     - Productivity/Networking/Diagnostic
 - repo: opensuse_leap_15_6
-  subrepo: main/oss
-  srcname: iptraf-ng
-  visiblename: iptraf-ng
-  version: 1.2.1
-  origversion: 1.2.1-bp156.3.6
-  status: legacy
-  summary: TCP/IP Network Monitor
-  licenses:
-    - GPL-2.0-or-later
-  categories:
-    - Productivity/Networking/Diagnostic
-- repo: opensuse_leap_15_6
   subrepo: updates/oss
   srcname: iptraf-ng
   visiblename: iptraf-ng
@@ -1297,6 +1285,18 @@
   version: 1.2.2
   origversion: 1.2.2-bp156.4.3.1
   status: newest
+  summary: TCP/IP Network Monitor
+  licenses:
+    - GPL-2.0-or-later
+  categories:
+    - Productivity/Networking/Diagnostic
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: iptraf-ng
+  visiblename: iptraf-ng
+  version: 1.2.1
+  origversion: 1.2.1-bp156.3.6
+  status: legacy
   summary: TCP/IP Network Monitor
   licenses:
     - GPL-2.0-or-later
@@ -1367,7 +1367,7 @@
   categories:
     - net
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: iptraf-ng
   binnames:
     - iptraf-ng
@@ -1380,7 +1380,7 @@
   categories:
     - net
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: iptraf-ng
   binnames:
     - iptraf-ng
