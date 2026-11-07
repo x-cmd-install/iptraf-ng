@@ -1,3 +1,53 @@
+- repo: deepin_unstable
+  subrepo: main
+  srcname: iptraf-ng
+  binnames:
+    - iptraf-ng
+    - iptraf
+  visiblename: iptraf-ng
+  version: 1.1.4
+  origversion: 1:1.1.4-6
+  status: outdated
+  maintainers:
+    - aron@debian.org
+    - fpeters@debian.org
+- repo: deepin_23
+  subrepo: community
+  srcname: iptraf-ng
+  binnames:
+    - iptraf-ng
+  visiblename: iptraf-ng
+  version: 1.2.1
+  origversion: 1:1.2.1-1
+  status: outdated
+  maintainers:
+    - aron@debian.org
+  categories:
+    - net
+- repo: deepin_25
+  subrepo: community
+  srcname: iptraf-ng
+  binnames:
+    - iptraf-ng
+  visiblename: iptraf-ng
+  version: 1.2.1
+  origversion: 1:1.2.1-1
+  status: outdated
+  maintainers:
+    - aron@debian.org
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: iptraf-ng
+  binnames:
+    - iptraf-ng
+  visiblename: iptraf-ng
+  version: 1.2.1
+  origversion: 1:1.2.1-1
+  status: outdated
+  maintainers:
+    - aron@debian.org
+  categories:
+    - net
 - repo: almalinux_8
   subrepo: BaseOS
   srcname: iptraf-ng
@@ -558,56 +608,6 @@
     - aron@debian.org
   categories:
     - net
-- repo: deepin_unstable
-  subrepo: main
-  srcname: iptraf-ng
-  binnames:
-    - iptraf-ng
-    - iptraf
-  visiblename: iptraf-ng
-  version: 1.1.4
-  origversion: 1:1.1.4-6
-  status: outdated
-  maintainers:
-    - aron@debian.org
-    - fpeters@debian.org
-- repo: deepin_23
-  subrepo: community
-  srcname: iptraf-ng
-  binnames:
-    - iptraf-ng
-  visiblename: iptraf-ng
-  version: 1.2.1
-  origversion: 1:1.2.1-1
-  status: outdated
-  maintainers:
-    - aron@debian.org
-  categories:
-    - net
-- repo: deepin_25
-  subrepo: community
-  srcname: iptraf-ng
-  binnames:
-    - iptraf-ng
-  visiblename: iptraf-ng
-  version: 1.2.1
-  origversion: 1:1.2.1-1
-  status: outdated
-  maintainers:
-    - aron@debian.org
-- repo: devuan_4_0
-  subrepo: chimaera/main
-  srcname: iptraf-ng
-  binnames:
-    - iptraf-ng
-  visiblename: iptraf-ng
-  version: 1.2.1
-  origversion: 1:1.2.1-1
-  status: outdated
-  maintainers:
-    - aron@debian.org
-  categories:
-    - net
 - repo: devuan_unstable
   subrepo: unstable/main
   srcname: iptraf-ng
@@ -956,9 +956,9 @@
   srcname: iptraf-ng
   binname: iptraf-ng
   visiblename: iptraf-ng
-  version: 1.2.1
-  origversion: 1.2.1-1
-  status: outdated
+  version: 1.2.2
+  origversion: 1.2.2-1
+  status: newest
   summary: Console-based network monitoring utility
   licenses:
     - GPL2
@@ -967,9 +967,9 @@
   srcname: iptraf-ng
   binname: iptraf-ng
   visiblename: iptraf-ng
-  version: 1.2.1
-  origversion: 1.2.1-1
-  status: outdated
+  version: 1.2.2
+  origversion: 1.2.2-1
+  status: newest
   summary: Console-based network monitoring utility
   licenses:
     - GPL2
@@ -1654,20 +1654,6 @@
   categories:
     - universe/net
 - repo: ubuntu_16_04
-  subrepo: xenial-updates/universe
-  srcname: iptraf-ng
-  binnames:
-    - iptraf-ng
-  visiblename: iptraf-ng
-  version: 1.1.4
-  origversion: 1.1.4-2ubuntu0.16.04.1
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - fpeters@debian.org
-  categories:
-    - universe/net
-- repo: ubuntu_16_04
   subrepo: xenial/universe
   srcname: iptraf-ng
   binnames:
@@ -1678,6 +1664,20 @@
   status: outdated
   maintainers:
     - aron@debian.org
+    - fpeters@debian.org
+  categories:
+    - universe/net
+- repo: ubuntu_16_04
+  subrepo: xenial-updates/universe
+  srcname: iptraf-ng
+  binnames:
+    - iptraf-ng
+  visiblename: iptraf-ng
+  version: 1.1.4
+  origversion: 1.1.4-2ubuntu0.16.04.1
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
     - fpeters@debian.org
   categories:
     - universe/net
@@ -1778,6 +1778,19 @@
     - net
 - repo: ubuntu_26_10
   subrepo: stonking/main
+  srcname: iptraf-ng
+  binnames:
+    - iptraf-ng
+  visiblename: iptraf-ng
+  version: 1.2.2
+  origversion: 1:1.2.2-1
+  status: newest
+  maintainers:
+    - aron@debian.org
+  categories:
+    - net
+- repo: ubuntu_27_04
+  subrepo: tenacious/main
   srcname: iptraf-ng
   binnames:
     - iptraf-ng
