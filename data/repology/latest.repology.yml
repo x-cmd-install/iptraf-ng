@@ -1,53 +1,31 @@
-- repo: deepin_unstable
-  subrepo: main
-  srcname: iptraf-ng
-  binnames:
-    - iptraf-ng
-    - iptraf
-  visiblename: iptraf-ng
-  version: 1.1.4
-  origversion: 1:1.1.4-6
-  status: outdated
-  maintainers:
-    - aron@debian.org
-    - fpeters@debian.org
-- repo: deepin_23
-  subrepo: community
+- repo: parrot
+  subrepo: parrot/main
   srcname: iptraf-ng
   binnames:
     - iptraf-ng
   visiblename: iptraf-ng
   version: 1.2.1
-  origversion: 1:1.2.1-1
+  origversion: 1:1.2.1-2
   status: outdated
   maintainers:
     - aron@debian.org
   categories:
     - net
-- repo: deepin_25
-  subrepo: community
+- repo: pclinuxos
   srcname: iptraf-ng
-  binnames:
-    - iptraf-ng
   visiblename: iptraf-ng
-  version: 1.2.1
-  origversion: 1:1.2.1-1
-  status: outdated
-  maintainers:
-    - aron@debian.org
-- repo: devuan_4_0
-  subrepo: chimaera/main
-  srcname: iptraf-ng
-  binnames:
-    - iptraf-ng
-  visiblename: iptraf-ng
-  version: 1.2.1
-  origversion: 1:1.2.1-1
-  status: outdated
-  maintainers:
-    - aron@debian.org
+  version: 1.2.2
+  origversion: 1.2.2-1pclos2025
+  status: newest
+  summary: TCP/IP Network Monitor
   categories:
-    - net
+    - System/Networking
+- repo: pld
+  srcname: iptraf-ng
+  visiblename: iptraf-ng
+  version: 1.2.2
+  origversion: 1.2.2-1
+  status: newest
 - repo: almalinux_8
   subrepo: BaseOS
   srcname: iptraf-ng
@@ -80,6 +58,65 @@
     - GPL-2.0-or-later
   categories:
     - Unspecified
+- repo: amazon_2
+  srcname: iptraf-ng
+  visiblename: iptraf-ng
+  version: 1.1.4
+  origversion: 1.1.4-6.amzn2
+  status: outdated
+  summary: A console-based network monitoring utility
+  licenses:
+    - GPLv2+
+  categories:
+    - Applications/System
+- repo: amazon_2
+  srcname: iptraf-ng
+  visiblename: iptraf-ng
+  version: 1.1.4
+  origversion: 1.1.4-7.amzn2.0.1
+  status: outdated
+  summary: A console-based network monitoring utility
+  licenses:
+    - GPLv2+
+  categories:
+    - Applications/System
+- repo: amazon_2
+  srcname: iptraf-ng
+  visiblename: iptraf-ng
+  version: 1.1.4
+  origversion: 1.1.4-7.amzn2
+  status: outdated
+  summary: A console-based network monitoring utility
+  licenses:
+    - GPLv2+
+  categories:
+    - Applications/System
+- repo: ubuntu_25_04
+  subrepo: plucky/main
+  srcname: iptraf-ng
+  binnames:
+    - iptraf-ng
+  visiblename: iptraf-ng
+  version: 1.2.1
+  origversion: 1:1.2.1-2
+  status: outdated
+  maintainers:
+    - aron@debian.org
+  categories:
+    - net
+- repo: alpine_3_20
+  subrepo: community
+  srcname: iptraf-ng
+  binname: iptraf-ng-doc
+  visiblename: iptraf-ng-doc
+  version: 1.2.1
+  origversion: 1.2.1-r1
+  status: outdated
+  summary: An IP Network Monitoring tool (documentation)
+  maintainers:
+    - rnalrd@alpinelinux.org
+  licenses:
+    - GPL-2.0-only
 - repo: alpine_3_17
   subrepo: community
   srcname: iptraf-ng
@@ -171,19 +208,6 @@
     - rnalrd@alpinelinux.org
   licenses:
     - GPL-2.0-only
-- repo: alpine_3_20
-  subrepo: community
-  srcname: iptraf-ng
-  binname: iptraf-ng-doc
-  visiblename: iptraf-ng-doc
-  version: 1.2.1
-  origversion: 1.2.1-r1
-  status: outdated
-  summary: An IP Network Monitoring tool (documentation)
-  maintainers:
-    - rnalrd@alpinelinux.org
-  licenses:
-    - GPL-2.0-only
 - repo: alpine_3_21
   subrepo: community
   srcname: iptraf-ng
@@ -210,6 +234,18 @@
     - rnalrd@alpinelinux.org
   licenses:
     - GPL-2.0-only
+- repo: aosc
+  srcname: app-network/iptraf-ng
+  binname: iptraf-ng
+  visiblename: iptraf-ng
+  version: 1.2.2
+  origversion: null
+  status: newest
+  summary: Console-based network monitoring utility
+  maintainers:
+    - fallback-mnt-aosc@repology
+  categories:
+    - net
 - repo: alpine_3_22
   subrepo: community
   srcname: iptraf-ng
@@ -357,51 +393,6 @@
     - GPLv2+
   categories:
     - Applications/System
-- repo: amazon_2
-  srcname: iptraf-ng
-  visiblename: iptraf-ng
-  version: 1.1.4
-  origversion: 1.1.4-6.amzn2
-  status: outdated
-  summary: A console-based network monitoring utility
-  licenses:
-    - GPLv2+
-  categories:
-    - Applications/System
-- repo: amazon_2
-  srcname: iptraf-ng
-  visiblename: iptraf-ng
-  version: 1.1.4
-  origversion: 1.1.4-7.amzn2.0.1
-  status: outdated
-  summary: A console-based network monitoring utility
-  licenses:
-    - GPLv2+
-  categories:
-    - Applications/System
-- repo: amazon_2
-  srcname: iptraf-ng
-  visiblename: iptraf-ng
-  version: 1.1.4
-  origversion: 1.1.4-7.amzn2
-  status: outdated
-  summary: A console-based network monitoring utility
-  licenses:
-    - GPLv2+
-  categories:
-    - Applications/System
-- repo: aosc
-  srcname: app-network/iptraf-ng
-  binname: iptraf-ng
-  visiblename: iptraf-ng
-  version: 1.2.2
-  origversion: null
-  status: newest
-  summary: Console-based network monitoring utility
-  maintainers:
-    - fallback-mnt-aosc@repology
-  categories:
-    - net
 - repo: arch
   subrepo: extra
   srcname: iptraf-ng
@@ -608,6 +599,56 @@
     - aron@debian.org
   categories:
     - net
+- repo: deepin_unstable
+  subrepo: main
+  srcname: iptraf-ng
+  binnames:
+    - iptraf-ng
+    - iptraf
+  visiblename: iptraf-ng
+  version: 1.1.4
+  origversion: 1:1.1.4-6
+  status: outdated
+  maintainers:
+    - aron@debian.org
+    - fpeters@debian.org
+- repo: deepin_23
+  subrepo: community
+  srcname: iptraf-ng
+  binnames:
+    - iptraf-ng
+  visiblename: iptraf-ng
+  version: 1.2.1
+  origversion: 1:1.2.1-1
+  status: outdated
+  maintainers:
+    - aron@debian.org
+  categories:
+    - net
+- repo: deepin_25
+  subrepo: community
+  srcname: iptraf-ng
+  binnames:
+    - iptraf-ng
+  visiblename: iptraf-ng
+  version: 1.2.1
+  origversion: 1:1.2.1-1
+  status: outdated
+  maintainers:
+    - aron@debian.org
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: iptraf-ng
+  binnames:
+    - iptraf-ng
+  visiblename: iptraf-ng
+  version: 1.2.1
+  origversion: 1:1.2.1-1
+  status: outdated
+  maintainers:
+    - aron@debian.org
+  categories:
+    - net
 - repo: devuan_unstable
   subrepo: unstable/main
   srcname: iptraf-ng
@@ -621,17 +662,6 @@
     - aron@debian.org
   categories:
     - net
-- repo: epel_6
-  srcname: iptraf-ng
-  visiblename: iptraf-ng
-  version: 1.1.4
-  origversion: 1.1.4-4.el6
-  status: outdated
-  summary: A console-based network monitoring utility
-  licenses:
-    - GPLv2+
-  categories:
-    - Applications/System
 - repo: eurolinux_8
   subrepo: baseos
   srcname: iptraf-ng
@@ -731,20 +761,6 @@
   categories:
     - Unspecified
 - repo: fedora_42
-  subrepo: release
-  srcname: iptraf-ng
-  binnames:
-    - iptraf-ng
-  visiblename: iptraf-ng
-  version: 1.2.1
-  origversion: 1.2.1-12.fc41
-  status: legacy
-  summary: A console-based network monitoring utility
-  licenses:
-    - GPL-2.0-or-later
-  categories:
-    - Unspecified
-- repo: fedora_42
   subrepo: updates
   srcname: iptraf-ng
   binnames:
@@ -753,6 +769,20 @@
   version: 1.2.2
   origversion: 1.2.2-15.fc42
   status: newest
+  summary: A console-based network monitoring utility
+  licenses:
+    - GPL-2.0-or-later
+  categories:
+    - Unspecified
+- repo: fedora_42
+  subrepo: release
+  srcname: iptraf-ng
+  binnames:
+    - iptraf-ng
+  visiblename: iptraf-ng
+  version: 1.2.1
+  origversion: 1.2.1-12.fc41
+  status: legacy
   summary: A console-based network monitoring utility
   licenses:
     - GPL-2.0-or-later
@@ -892,22 +922,6 @@
   categories:
     - net-analyzer
 - repo: mageia_9
-  subrepo: core/updates
-  srcname: iptraf-ng
-  binnames:
-    - iptraf-ng
-    - iptraf-ng-debuginfo
-    - iptraf-ng-debugsource
-  visiblename: iptraf-ng
-  version: 1.2.2
-  origversion: 1.2.2-1.mga9
-  status: newest
-  summary: TCP/IP Network Monitor
-  licenses:
-    - GPLv2
-  categories:
-    - System/Networking
-- repo: mageia_9
   subrepo: core/release
   srcname: iptraf-ng
   binnames:
@@ -918,6 +932,22 @@
   version: 1.2.1
   origversion: 1.2.1-2.mga9
   status: legacy
+  summary: TCP/IP Network Monitor
+  licenses:
+    - GPLv2
+  categories:
+    - System/Networking
+- repo: mageia_9
+  subrepo: core/updates
+  srcname: iptraf-ng
+  binnames:
+    - iptraf-ng
+    - iptraf-ng-debuginfo
+    - iptraf-ng-debugsource
+  visiblename: iptraf-ng
+  version: 1.2.2
+  origversion: 1.2.2-1.mga9
+  status: newest
   summary: TCP/IP Network Monitor
   licenses:
     - GPLv2
@@ -1267,6 +1297,18 @@
   categories:
     - Productivity/Networking/Diagnostic
 - repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: iptraf-ng
+  visiblename: iptraf-ng
+  version: 1.2.1
+  origversion: 1.2.1-bp156.3.6
+  status: legacy
+  summary: TCP/IP Network Monitor
+  licenses:
+    - GPL-2.0-or-later
+  categories:
+    - Productivity/Networking/Diagnostic
+- repo: opensuse_leap_15_6
   subrepo: updates/oss
   srcname: iptraf-ng
   visiblename: iptraf-ng
@@ -1285,18 +1327,6 @@
   version: 1.2.2
   origversion: 1.2.2-bp156.4.3.1
   status: newest
-  summary: TCP/IP Network Monitor
-  licenses:
-    - GPL-2.0-or-later
-  categories:
-    - Productivity/Networking/Diagnostic
-- repo: opensuse_leap_15_6
-  subrepo: main/oss
-  srcname: iptraf-ng
-  visiblename: iptraf-ng
-  version: 1.2.1
-  origversion: 1.2.1-bp156.3.6
-  status: legacy
   summary: TCP/IP Network Monitor
   licenses:
     - GPL-2.0-or-later
@@ -1379,34 +1409,6 @@
     - aron@debian.org
   categories:
     - net
-- repo: parrot
-  subrepo: parrot/main
-  srcname: iptraf-ng
-  binnames:
-    - iptraf-ng
-  visiblename: iptraf-ng
-  version: 1.2.1
-  origversion: 1:1.2.1-2
-  status: outdated
-  maintainers:
-    - aron@debian.org
-  categories:
-    - net
-- repo: pclinuxos
-  srcname: iptraf-ng
-  visiblename: iptraf-ng
-  version: 1.2.2
-  origversion: 1.2.2-1pclos2025
-  status: newest
-  summary: TCP/IP Network Monitor
-  categories:
-    - System/Networking
-- repo: pld
-  srcname: iptraf-ng
-  visiblename: iptraf-ng
-  version: 1.2.2
-  origversion: 1.2.2-1
-  status: newest
 - repo: pureos_amber
   subrepo: amber/main
   srcname: iptraf-ng
@@ -1654,20 +1656,6 @@
   categories:
     - universe/net
 - repo: ubuntu_16_04
-  subrepo: xenial/universe
-  srcname: iptraf-ng
-  binnames:
-    - iptraf-ng
-  visiblename: iptraf-ng
-  version: 1.1.4
-  origversion: 1.1.4-2
-  status: outdated
-  maintainers:
-    - aron@debian.org
-    - fpeters@debian.org
-  categories:
-    - universe/net
-- repo: ubuntu_16_04
   subrepo: xenial-updates/universe
   srcname: iptraf-ng
   binnames:
@@ -1678,6 +1666,20 @@
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
+    - fpeters@debian.org
+  categories:
+    - universe/net
+- repo: ubuntu_16_04
+  subrepo: xenial/universe
+  srcname: iptraf-ng
+  binnames:
+    - iptraf-ng
+  visiblename: iptraf-ng
+  version: 1.1.4
+  origversion: 1.1.4-2
+  status: outdated
+  maintainers:
+    - aron@debian.org
     - fpeters@debian.org
   categories:
     - universe/net
@@ -1735,19 +1737,6 @@
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
-  categories:
-    - net
-- repo: ubuntu_25_04
-  subrepo: plucky/main
-  srcname: iptraf-ng
-  binnames:
-    - iptraf-ng
-  visiblename: iptraf-ng
-  version: 1.2.1
-  origversion: 1:1.2.1-2
-  status: outdated
-  maintainers:
-    - aron@debian.org
   categories:
     - net
 - repo: ubuntu_25_10
